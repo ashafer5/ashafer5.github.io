@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Saira:400,500,700');
+
+body {
+  color: 222;
+  font-family: 'Saira', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+}
+
+h2 {
+  font-family: 'Saira', sans-serif;
+  font-weight: 700;
+}
+
+h3{
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+}
+
+#wrapper{
+  width: 830px;
+  margin: 0 auto;
+}
+
+nav ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a{
+  color: #DCAE1D;
+}
+
+a:visited{
+  color: #ec7f37;
+}
+
+a:hover{
+  /* color: #be4f0c; */
+  color: rgba(118,155,148,0.5);
+}
+
+a:active{
+  color: #393939;
+}
+
+header {
+  /* background-color: #ccc; */
+  position: relative;
+  min-height: 300px;
+  width: 830px;
+}
+
+header p{
+  margin: 0;
+}
+
+header img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 5px solid #ec7f37;
+}
+
+ul{
+  list-style-type: square;
+}
+
+main {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 400px 400px;
+  /* background-color: #bbb; */
+  background-color: rgba(118,155,148,0.5);
+  grid-gap: 10px;
+}
+
+#volunteer {
+  grid-row: 2 / span 2;
+  grid-column: 2;
+}
