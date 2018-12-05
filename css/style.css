@@ -39,11 +39,11 @@ footer ul{
 
 nav a{
   text-decoration: none;
+  padding: 10px;
 }
 
 nav li{
   display: inline-flex;
-  padding: 10px;
   margin-right: 20px;
   background-color: #42433F;
 }
@@ -53,16 +53,16 @@ a{
 }
 
 a:visited{
-  color: ;
+  color: #E5F04C;
 }
 
 a:hover{
   /* color: #be4f0c; */
-  color: ;
+  color: #88C425;
 }
 
 a:active{
-  color: ;
+  color: #489C79;
 }
 
 main{

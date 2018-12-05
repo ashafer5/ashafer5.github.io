@@ -1,6 +1,12 @@
 @media(max-width: 414px){
 
+  body{
+    font-size: 14px;
+  }
+
   img{
+    width: 100%;
+    height: auto;
     margin-top: 10px;
   }
 
@@ -11,22 +17,21 @@
     border: 2px solid silver;
   }
 
-  body{
-    font-size: 14px;
+  nav li{
+    display: inline-block;
+    padding:10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 44%;
   }
 
   main{
     display: block;
-    grid-template-columns: 400px;
+    grid-template-columns: 1fr;
   }
 
   #wrapper{
     max-width: 400px;
   }
-
-
-
-
-
 
 }
